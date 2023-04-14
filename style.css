@@ -1,0 +1,252 @@
+h1 {
+  color: black;  
+  font-size: 26px;
+}
+
+h1 span {
+    color: #2196F3;
+}
+
+.nav li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #212121 ;
+}
+
+.nav a:hover {
+    color: #2196F3;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.links a:hover {
+    color: #2196F3;
+}
+
+.promo {
+    background-color:#2F303A;
+}
+
+.promo h2 {
+    color: #ffff;
+    font-size: 44px;
+}
+
+.promo button {
+    background-color:#2196F3 ;
+    color: white;
+    cursor: pointer;
+}
+
+.about li {
+      color:#212121;
+     font-size: 14px;
+     list-style-type: none;
+}
+
+.about p {
+    color: #757575;
+}
+
+.fotos li {
+    color: #212121;
+    font-size: 36px;
+    list-style-type: none;
+}
+
+.ppl {
+   background-color: #F5F4FA;
+}
+
+.ppl li {
+    list-style-type: none;
+}
+
+.ppl h2 {
+    color: #212121;
+     font-size: 36px;
+}
+
+.ppl h4 {
+    color: #212121;
+    font-size: 16px;
+}
+
+.ppl h5 {
+    color: #757575;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer h2 {
+    color: white;
+    font-size: 26px;
+}
+
+.footer h2 span {
+    color: #2196F3;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #2196F3;
+}
+
+.footer address {
+color: white;
+font-size: 14px;
+}
+
+
+h2 {
+    color: #000000;
+    font-size: 26px;
+}
+
+h2 span {
+    color: #2196F3;
+}
+
+.nav2 li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #212121 ;
+}
+
+.nav2 a:hover {
+    color: #2196F3;
+}
+
+.links2 a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.links2 a:hover {
+    color: #2196F3;
+}
+
+.btns button {
+    font-size: 16px;
+    background-color: #F5F4FA;
+    color: #212121;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btns li {
+    list-style-type: none;
+}
+
+#усі {
+    background-color: #2196F3;
+    color: white;
+}
+
+.boxes li {
+    list-style-type: none;
+    border: 1px solid #EEEEEE
+}
+
+.boxes h2 {
+    font-size: 18px;
+    color: #212121;
+}
+
+.boxes h4 {
+    font-size: 16px;
+    color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer2 {
+    background-color: #2F303A;
+}
+
+.footer2 h2 {
+    color: white;
+    font-size: 26px;
+}
+
+.footer2 h2 span {
+    color: #2196F3;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+.footer2 a:hover {
+    color: #2196F3;
+}
+
+.footer2 address {
+color: white;
+font-size: 14px;
+}
+
+
+
+
+
+
+
