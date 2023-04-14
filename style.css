@@ -1,6 +1,13 @@
+
 h1 {
-  color: black;  
-  font-size: 26px;
+    color: #000000;  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 
 h1 span {
@@ -15,6 +22,12 @@ h1 span {
 .nav a {
     text-decoration: none;
     color: #212121 ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .nav a:hover {
@@ -25,6 +38,12 @@ h1 span {
 .links a {
     text-decoration: none;
     color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .links a:hover {
@@ -38,28 +57,75 @@ h1 span {
 .promo h2 {
     color: #ffff;
     font-size: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .promo button {
     background-color:#2196F3 ;
-    color: white;
+    color: #ffff;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .about li {
+    list-style-type: none;
+}
+
+.about h3 {
       color:#212121;
      font-size: 14px;
-     list-style-type: none;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
 }
 
 .about p {
     color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
 }
 
 .fotos li {
+    list-style-type: none;
+}
+
+.fotos {
     color: #212121;
     font-size: 36px;
-    list-style-type: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .ppl {
@@ -71,18 +137,39 @@ h1 span {
 }
 
 .ppl h2 {
-    color: #212121;
+     color: #212121;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
      font-size: 36px;
+     line-height: 42px;
+     text-align: center;
+     letter-spacing: 0.03em;
 }
 
 .ppl h4 {
     color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .ppl h5 {
     color: #757575;
     font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -90,8 +177,15 @@ h1 span {
 }
 
 .footer h2 {
-    color: white;
+    color: #ffff;
     font-size: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 
 .footer h2 span {
@@ -101,7 +195,14 @@ h1 span {
 .footer a {
     text-decoration: none;
     color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
 }
 
 .footer a:hover {
@@ -109,14 +210,27 @@ h1 span {
 }
 
 .footer address {
-color: white;
-font-size: 14px;
+    color: #ffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
 }
 
 
 h2 {
     color: #000000;
     font-size: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 
 h2 span {
@@ -126,6 +240,16 @@ h2 span {
 .nav2 li {
     list-style-type: none;
     font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+#Портфоліо {
+   color: #2196F3;
 }
 
 .nav2 a {
@@ -140,6 +264,12 @@ h2 span {
 .links2 a {
     text-decoration: none;
     color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .links2 a:hover {
@@ -147,20 +277,32 @@ h2 span {
 }
 
 .btns button {
-    font-size: 16px;
     background-color: #F5F4FA;
     color: #212121;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
+.btns button:hover {
+    background-color: #2196F3;
+    color: #ffff;
+}
+ 
 .btns li {
     list-style-type: none;
 }
 
 #усі {
     background-color: #2196F3;
-    color: white;
+    color: #ffff;
 }
 
 .boxes li {
@@ -169,60 +311,40 @@ h2 span {
 }
 
 .boxes h2 {
-    font-size: 18px;
     color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
 }
 
 .boxes h4 {
-    font-size: 16px;
     color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer2 {
     background-color: #2F303A;
 }
 
 .footer2 h2 {
-    color: white;
+    color: #ffff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 }
 
 .footer2 h2 span {
@@ -233,6 +355,13 @@ h2 span {
     text-decoration: none;
     color: #757575;
     font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
 }
 
 .footer2 a:hover {
@@ -240,8 +369,14 @@ h2 span {
 }
 
 .footer2 address {
-color: white;
+color: #ffff;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
 font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
 }
 
 
