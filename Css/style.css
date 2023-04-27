@@ -1,3 +1,11 @@
+.container {
+width: 1519.2px;
+height: 80px;
+margin: 0 auto;
+display: inline-flex;
+align-items: center;
+justify-content: space-around;
+}
 
 h1 {
     color: #000000;  
@@ -17,8 +25,11 @@ h1 span {
 .nav li {
     list-style-type: none;
     font-size: 14px;
-    width: 1600px;
-    height: 80px;
+    width: 125px;
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav a {
@@ -32,12 +43,13 @@ h1 span {
     letter-spacing: 0.02em;
 }
 
-.nav a:hover {
+nav a:hover {
     color: #2196F3;
 }
 
 
 .links a {
+    width: 218px;
     text-decoration: none;
     color: #757575;
     font-family: 'Roboto';
@@ -46,6 +58,10 @@ h1 span {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .links a:hover {
@@ -56,11 +72,17 @@ h1 span {
     background-color:#2F303A;
     width: 1600px;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .promo h2 {
     color: #ffff;
-    font-size: 44px;
+    width: 696px;
+    height: 120px;
+    margin: 0 auto;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -82,23 +104,39 @@ h1 span {
     font-size: 16px;
     line-height: 30px;
     /* identical to box height, or 188% */
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     width: 216px;
     height: 50px;
+    margin:  30px auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 1519.2px;
+    height: 104px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
 }
 
 .about li {
-    list-style-type: none;
     width: 270px;
     height: 98px;
+    
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about h3 {
       color:#212121;
-     font-size: 14px;
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 700;
