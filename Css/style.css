@@ -70,7 +70,7 @@ nav a:hover {
 
 .promo {
     background-color:#2F303A;
-    width: 1600px;
+    width: 1519.2px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -117,7 +117,6 @@ nav a:hover {
 
 .about {
     width: 1519.2px;
-    height: 104px;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
@@ -156,10 +155,18 @@ nav a:hover {
     /* or 171% */
     letter-spacing: 0.03em;
 }
+.fotos {
+    height: 386px;
+    width: 1519.2px;
+    margin-bottom: 90px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+} 
 
 .fotos li {
     color: #212121;
-    font-size: 36px;
+    padding: 0 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -168,23 +175,35 @@ nav a:hover {
     text-align: center;
     letter-spacing: 0.03em;
     list-style-type: none;
+    display: inline-flex;
 }
 
 .ppl {
    background-color: #F5F4FA;
-   width: 1600px;
-   height: 648px;
+   margin: 0 auto;
+   width: 1519.2px;
+   height: 675px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .ppl li {
+    margin: 21px 13px;
     list-style-type: none;
-    width: 270px;
-    height: 368px;
     background-color: #ffff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px 0px #0000001F;
 }
 
 .ppl h2 {
      color: #212121;
+     margin: 0 auto;
+     padding-top: 100px;
+     padding-bottom: 22px;
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 700;
@@ -196,6 +215,8 @@ nav a:hover {
 
 .ppl h4 {
     color: #212121;
+    margin: 0 auto;
+    padding-top: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -208,7 +229,8 @@ nav a:hover {
 
 .ppl h5 {
     color: #757575;
-    font-size: 16px;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -221,13 +243,12 @@ nav a:hover {
 
 .footer {
     background-color: #2F303A;
-    width: 1600px;
+    width: 1519.2px;
     height: 252px;
 }
 
 .footer h2 {
     color: #ffff;
-    font-size: 26px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
