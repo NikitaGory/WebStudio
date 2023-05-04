@@ -75,7 +75,6 @@ nav a:hover {
 
 .promo {
     background-color:#2F303A;
-    width: 1519.2px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -121,8 +120,7 @@ nav a:hover {
 }
 
 .about {
-    width: 1519.2px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 50px auto;
@@ -162,9 +160,9 @@ nav a:hover {
 }
 .fotos {
     height: 386px;
-    width: 1519.2px;
+    margin: 0px auto;
     margin-bottom: 90px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
 } 
@@ -183,7 +181,7 @@ nav a:hover {
 
 .fotos li {
     list-style-type: none;
-    display: inline-flex;
+    display: inline;
 }
 
 .ppl {
