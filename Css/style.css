@@ -57,8 +57,30 @@ nav a:hover {
     color: #2196F3;
 }
 
+.links {
+    width: 334px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link1 {
+    width: 171px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.link2 {
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
 .links a {
-    padding: 0 15px;
+    padding: 0 5px;
     text-decoration: none;
     color: #757575;
     font-family: 'Roboto';
@@ -74,7 +96,8 @@ nav a:hover {
 }
 
 .promo {
-    background-color:#2F303A;
+    background-color: #2F303A;
+    background-image: url();
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -296,6 +319,7 @@ nav a:hover {
 }
 
 .footer a {
+    width: 100px;
     text-decoration: none;
     color: #757575;
     font-family: 'Roboto';
