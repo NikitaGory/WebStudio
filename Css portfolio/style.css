@@ -53,6 +53,7 @@ h2 span {
 .nav a {
     text-decoration: none;
     color: #212121 ;
+    transition: color 0.4s ease;
 }
 
 .nav a:hover {
@@ -69,6 +70,7 @@ h2 span {
     font-size: 0.9em;
     line-height: 16px;
     letter-spacing: 0.02em;
+    transition: color 0.4s ease;
 }
 
 .links a:hover {
@@ -118,6 +120,7 @@ h2 span {
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
+    transition: color, background-color 0.4s ease;
 }
 
 .btns button:hover {
@@ -197,6 +200,11 @@ figcaption {
     letter-spacing: 0.03em;
 }
 
+.boxes img {
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
 .footer {
     background-color: #2F303A;
     height: 271px;
@@ -247,7 +255,7 @@ figcaption {
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
-
+    transition: color 0.4s ease;
 }
 
 .footer a:hover {
