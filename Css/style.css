@@ -141,7 +141,12 @@
         justify-content: center;
         align-items: center;
         box-shadow: none;
+        transition: transform 0.3s ease;
     }
+
+     .promo button:hover {
+        transform: scale(1.1, 1.1);
+     }
 
     .about {
         display: flex;

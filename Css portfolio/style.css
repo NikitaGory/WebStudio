@@ -124,6 +124,7 @@ h2 span {
 }
 
 .btns button:hover {
+    transform: translate(-5px, 5px);
     background-color: #2196F3;
     color: #ffff;
 }
