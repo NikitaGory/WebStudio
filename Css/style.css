@@ -22,7 +22,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+   
     h2 {
         color: #000000;  
         font-family: 'Raleway';
@@ -73,11 +73,13 @@
         align-items: center;
         justify-content: space-between;
     }
+
     .links img {
         margin-right: 5px;
         object-fit: cover;
         object-position: 50% 50%;
     }
+    
 
     .links a {
         text-decoration: none;
@@ -94,7 +96,7 @@
     .links a:hover {
         color: #2196F3;
     }
-    
+
     .promo {
         background-color: #2F303A;
         background-image: url(../img/Peopletalking.svg);
@@ -102,6 +104,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        animation: tada 2s 1s;
     }
     
     .promo h1 {
@@ -142,6 +145,7 @@
         align-items: center;
         box-shadow: none;
         transition: transform 0.3s ease;
+        animation: pulse 2s 3s infinite;
     }
 
      .promo button:hover {
@@ -182,7 +186,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 0.9em;
+        font-size: 0.87em;
         line-height: 24px;
         /* or 171% */
         letter-spacing: 0.03em;
@@ -195,6 +199,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        animation: fadeInUp 2s;
     } 
     
     .fotos-content {
@@ -233,7 +238,9 @@
        display: flex;
        flex-direction: column;
        align-items: center;
+       animation: fadeInUp 1s;
     }
+
     .ppl img {
         object-fit: cover;
         object-position: 50% 50%;
@@ -247,7 +254,7 @@
         flex-direction: column;
         align-items: center;
         /* material shadow v1 */
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0,0,0,0.2);
         border-radius: 0px 0px 4px 4px;
     }    
     
@@ -282,7 +289,7 @@
     .ppl h5 {
         color: #757575;
         margin: 0 auto;
-        padding: 10px 0 30px 0;
+        padding: 10px 0 13px 0;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -291,6 +298,34 @@
         /* identical to box height */
         text-align: center;
         letter-spacing: 0.03em;
+    }
+
+    .ppl a{
+        width: 44px;
+        height: 44px;
+        border-radius: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ppl a:hover {
+        background-color:#2196F3;
+    }
+
+    .links2 {
+        margin: 0 auto;
+        width: 206px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .links2 img {
+        object-fit: cover;
+        object-position: 50% 50%;
     }
     
     .footer {

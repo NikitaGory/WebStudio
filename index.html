@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -22,19 +23,17 @@
                         <nav class="nav">
                             <ul class="header-menu">
                                 <li><a href="/">Студія</a></li>
-                                <li><a href="/">Портфоліо</a></li>
+                                <li><a href="portfolio.html">Портфоліо</a></li>
                                 <li><a href="/">Контакти</a></li>
                             </ul>
                         </nav>
                     </div>
                 <div class="links">
                    <div class="link1">
-                        <img src="./icons/mail.svg" alt="mail">
-                        <a target="_blank" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a target="_blank" alt="mail" href="mailto:info@devstudio.com"><img src="./icons/mail.svg" alt="mail">info@devstudio.com</a>
                    </div>
                    <div class="link2">
-                        <img src="./icons/smartphone.svg" alt="smartphone">
-                        <a target="_blank" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a target="_blank" href="tel:+380961111111"><img src="./icons/smartphone.svg" alt="smartphone">+38 096 111 11 11</a>
                    </div>
                 </div>
             </div>
@@ -76,28 +75,52 @@
                 <li><img src="./img/Desk3.svg" alt="Desk"></li>
             </ul>
         </section>
-        <section class="ppl">
+        <section class="ppl wow">
             <h2>Наша команда</h2>
             <ul>
                 <li>
                     <img src="./img/Man.png" alt="Man">
                     <h4>Ігор Дем’яненко</h4>
                     <h5>Product Designer</h5>
+                    <div class="links2">
+                        <a href="/"><img src="./icons/instagram.svg" alt="instagram"></a>
+                        <a href="/"><img src="./icons/twitter.svg" alt="twitter"></a>
+                        <a href="/"><img src="./icons/facebook.svg" alt="facebook"></a>
+                        <a href="/"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+                   </div>
                 </li>
                 <li>
                     <img src="./img/Woman.png" alt="Woman">
                     <h4>Ольга Репіна</h4>
                     <h5>Frontend Developer</h5>
+                    <div class="links2">
+                        <a href="/"><img src="./icons/instagram.svg" alt="instagram"></a>
+                        <a href="/"><img src="./icons/twitter.svg" alt="twitter"></a>
+                        <a href="/"><img src="./icons/facebook.svg" alt="facebook"></a>
+                        <a href="/"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+                   </div>
                 </li>
                 <li>
                     <img src="./img/Man2.png" alt="Man 2">
                     <h4>Микола Тарасов</h4>
                     <h5>Marketing</h5>
+                    <div class="links2">
+                        <a href="/"><img src="./icons/instagram.svg" alt="instagram"></a>
+                        <a href="/"><img src="./icons/twitter.svg" alt="twitter"></a>
+                        <a href="/"><img src="./icons/facebook.svg" alt="facebook"></a>
+                        <a href="/"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+                   </div>
                 </li>
                 <li>
                     <img src="./img/Man3.png" alt="Man 3">
                     <h4>Михайло Єрмаков</h4>
                     <h5>UI Designer</h5>
+                    <div class="links2">
+                        <a href="/"><img src="./icons/instagram.svg" alt="instagram"></a>
+                        <a href="/"><img src="./icons/twitter.svg" alt="twitter"></a>
+                        <a href="/"><img src="./icons/facebook.svg" alt="facebook"></a>
+                        <a href="/"><img src="./icons/linkedin.svg" alt="linkedin"></a>
+                   </div>
                 </li>
             </ul>
         </section>
@@ -112,6 +135,8 @@
             </div>
         </div>
     </footer>
+    <script src="./js/wow.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
