@@ -1,0 +1,121 @@
+.footer-maincontent {
+    width: 693px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #2F303A;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content {
+    height: 140px;
+    padding-left: 132px;
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-address {
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer h2 {
+    margin: 0 0;
+    color: #ffff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7em;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.footer h2 span {
+    color: #2196F3;
+}
+
+.footer a {
+    width: 127px;
+    text-decoration: none;
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    transition: color 0.4s ease;
+}
+
+.footer a:hover {
+    color: #2196F3;
+}
+
+.footer address {
+    color: #ffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+}
+
+.footer-links {
+    margin-top: 13px;
+    width: 206px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-links h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-as {
+        display: flex;
+        justify-content: space-between;
+        width: 206px;
+}
+
+.footer-as a {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-as a i{
+    color: #FFFFFF;
+}
+
+.footer-as a:hover,
+.footer-as a i:hover {
+    background-color: #2196F3;
+}
+

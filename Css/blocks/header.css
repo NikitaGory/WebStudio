@@ -1,0 +1,107 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    }
+    
+    .header-block {
+        display: flex;
+        width: 520px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-menu {
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    
+    .header_wraper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    h2 {
+        color: #000000;  
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.7em;
+        line-height: 31px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    }
+    
+    h2 span {
+        color: #2196F3;
+    }
+    
+    .nav li {
+        list-style-type: none;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: #212121 ;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        transition: color 0.4s ease;
+    }
+    
+    .nav a:hover {
+        color: #2196F3;
+    }
+    
+    .links {
+        width: 334px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .link1 {
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .link2 {
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
+    .links a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: #757575;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        transition: color 0.5s ease;
+    }
+
+    .links a svg {
+        object-fit: cover;
+        object-position: 50% 50%;
+        padding-right: 9px;
+    }
+
+    .links a svg path {
+        transition: fill 0.5s ease;
+    }
+    
+    .links a:hover,
+    .links a:hover svg path {
+        color: #2196F3;
+        fill: #2196F3;
+    }
