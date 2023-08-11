@@ -182,9 +182,15 @@
     letter-spacing: 0.12px;
 }
 
+.comment-input:hover {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+
 .checkbox {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .checkbox-input {
