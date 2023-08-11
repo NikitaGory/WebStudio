@@ -53,7 +53,7 @@
     <main class="content">
         <section class="promo">
             <h1>ЕФЕКТИВНІ РІШЕННЯ  ДЛЯ <br> ВАШОГО БІЗНЕСУ</h1>
-            <button>Замовити послугу</button>
+            <button class="open_modal">Замовити послугу</button>
         </section>
         <section class="about">
             <ul>
@@ -101,7 +101,7 @@
                             <i class="fa-brands fa-twitter fa-xl"></i>
                         </a>
                         <a href="/">
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-facebook-f fa-xl"></i>
                         </a>
                         <a href="/">
                             <i class="fa-brands fa-linkedin-in fa-xl"></i>
@@ -292,6 +292,39 @@
     </section>
 
     </footer>
+    <div class="overlay">
+        <div class="overlay-show">
+            <div class="modal">
+                <div class="x"><button class="close_modal">x</button></div>
+                <section class="form">
+                    <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+                        <div class="inputs">
+                                <div class="name">
+                                        <label for="name" class="name-title">Ім'я</label>
+                                        <input type="text" name="name" class="name-input input">
+                                </div>
+                                <div class="tel">
+                                        <label for="tel" class="tel-title">Телефон</label>
+                                        <input type="tel" name="tel" class="text-input input">
+                                </div>
+                                <div class="email">
+                                        <label for="email" class="email-title">Пошта</label>
+                                        <input type="text" name="email" class="email-input input">
+                                </div>
+                                <div class="comment">
+                                        <label class="comment-title">Коментар</label>
+                                        <textarea name="message" placeholder="Введіть текст" class="comment-input" id="form-comments"></textarea>
+                                </div>
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkbox" class="checkbox-title">Погоджуюся з розсилкою та приймаю<a class="checkbox-link" href="/"> Умови договору</a></label>
+                            <input type="checkbox" name="checkbox" class="checkbox-input">
+                        </div>
+                    <button class="form-btn">Відправити</button>
+                </section>
+            </div>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/f8736082f5.js" crossorigin="anonymous"></script>
     <script src="./js/wow.js"></script>
     <script src="./js/script.js"></script>

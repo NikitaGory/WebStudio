@@ -4,6 +4,7 @@ header {
     background: #fff;
     top: 0;
     z-index: 990;
+    border-bottom: #ECECEC;
 }
 
 .container {
