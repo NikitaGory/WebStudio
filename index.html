@@ -293,27 +293,27 @@
 
     </footer>
     <div class="overlay">
-        <div class="overlay-show">
-            <div class="modal">
-                <div class="x"><button class="close_modal">x</button></div>
-                <section class="form">
+        <div class="modal">
+            <div class="modal-content">
+                <div class="x"><button class="close_modal"><img src="./icons/close-black-18dp (2) 1.svg" alt="x"></button></div>
+                <form action="/" class="form">
                     <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
                         <div class="inputs">
                                 <div class="name">
                                         <label for="name" class="name-title">Ім'я</label>
-                                        <input type="text" name="name" class="name-input input">
+                                        <input type="text" name="name" class="name-input input" required>
                                 </div>
                                 <div class="tel">
                                         <label for="tel" class="tel-title">Телефон</label>
-                                        <input type="tel" name="tel" class="text-input input">
+                                        <input type="tel" name="tel" class="text-input input" required>
                                 </div>
                                 <div class="email">
                                         <label for="email" class="email-title">Пошта</label>
-                                        <input type="text" name="email" class="email-input input">
+                                        <input type="email" name="email" class="email-input input" required>
                                 </div>
                                 <div class="comment">
                                         <label class="comment-title">Коментар</label>
-                                        <textarea name="message" placeholder="Введіть текст" class="comment-input" id="form-comments"></textarea>
+                                        <textarea name="message" placeholder="Введіть текст" class="comment-input" id="form-comments" required></textarea>
                                 </div>
                         </div>
                         <div class="checkbox">
@@ -321,7 +321,7 @@
                             <input type="checkbox" name="checkbox" class="checkbox-input">
                         </div>
                     <button class="form-btn">Відправити</button>
-                </section>
+                </form>
             </div>
         </div>
     </div>

@@ -3,22 +3,22 @@
 @import url(./blocks/customers.css);
 @import url(./blocks/footer.css);
 
-.show {
-    display: block;
-}
+
 
 .overlay {
     width: 99%;
     position: absolute;
     top: 93px;
+    display: none;
+    z-index: 888;
 }
 
-.overlay-show {
+.modal {
        display: flex;
        justify-content: center;
 }
 
-.modal {
+.modal-content {
     width: 528px;
     height: 635px;
     display: flex;
@@ -31,10 +31,29 @@
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.close_modal {
+.x {
+    width: 30px;
+    height: 30px;
     position: relative;
     top: -296px;
     right: -17px;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.10);
+}
+
+.close_modal {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 14px;
+    background-color: #FFF;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.10);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .form {
@@ -60,6 +79,11 @@
     height: 42px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
+   
+}
+
+.input:hover {
+    outline: 1px solid #2196F3;
 }
 
 .form-title {
@@ -199,7 +223,12 @@
     font-weight: 700;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.96px;
+    cursor: pointer;
     border: none;
+}
+
+.show {
+    display: block;
 }
 
 
