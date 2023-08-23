@@ -202,26 +202,6 @@
     letter-spacing: 0.03em;
 }
 
-.ppl a{
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ppl a i{
-    color: #AFB1B8;
-}
-
-.ppl a:hover,
-.ppl a:hover i {
-    background-color:#2196F3;
-    color: #ffff;
-}
-
 .links2 {
     margin: 0 auto;
     width: 206px;
@@ -231,7 +211,25 @@
     margin-bottom: 25px;
 }
 
+.links2 a{
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .links2 i {
     object-fit: cover;
     object-position: 50% 50%;
+    color: #AFB1B8;
 }
+
+.links2 a:hover,
+.links2 a:hover i {
+    background-color:#2196F3;
+    color: #ffff;
+}
+

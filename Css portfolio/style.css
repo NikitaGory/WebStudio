@@ -84,6 +84,7 @@ h2 span {
 }
 
  hr {
+    margin: 0;
     border: 1px solid #ECECEC;
 }
 
@@ -101,7 +102,7 @@ h2 span {
 
  .btns-content {
     display: flex;
-    width: 569px;
+    width: 616px;
     justify-content: space-between;
  }
 
@@ -186,6 +187,13 @@ figcaption {
 .boxes li:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     transform: translate(-3px, -10px);
+}
+
+.boxes li:hover {
+    width: 370px;
+    height: 294px;
+   
+    background: rgba(33, 150, 243, 0.90);
 }
 
 .boxes h2 {
