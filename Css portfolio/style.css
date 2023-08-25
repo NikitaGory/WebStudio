@@ -165,6 +165,31 @@ figure {
     margin: 0;
 }
 
+.img::before {
+    content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
+    opacity: 0;
+    background: rgba(33, 150, 243, 0.90);
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    padding: 63px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+}
+
+.boxes ul li:hover .img::before {
+    opacity: 1;
+    transition: 1s ease;
+}
+
 figcaption {
     width: 338px;
     height: 71px;
@@ -187,13 +212,6 @@ figcaption {
 .boxes li:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     transform: translate(-3px, -10px);
-}
-
-.boxes li:hover {
-    width: 370px;
-    height: 294px;
-   
-    background: rgba(33, 150, 243, 0.90);
 }
 
 .boxes h2 {
